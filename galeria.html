@@ -11,25 +11,25 @@
 <body>
 
     <div class="modal" id="modal">
-        <div class="modal_content">
-            <img src="" alt="" class="modal_img" id="modal_img">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
 
         </div>
-        <div class="modal_boton" id="modal_boton">X</div>
+        <div class="modal__boton" id="modal__boton">X</div>
 
     </div>
-    <header class="main-header">
+    <header class="header">
         <div class="container container--flex">
             <div class="logo-container column column--50">
                 <h1 class="logo">Sabor Peruano</h1>
             </div>
             <div class="info column column--50">
-                <div class="info_phone ">
+                <div class="info__phone ">
                     <span class="fas fa-phone-alt">999 334 455</span>
 
                 </div>
 
-                <div class="info_address">
+                <div class="info__address">
                     <span class="fas fa-map-marker-alt">Av Benavides 2392-Miraflores</span>
                 </div>
                 
@@ -37,17 +37,17 @@
 
         </div>
     </header>
-    <nav class="main-nav">
+    <nav class="nav">
         <div class="container container--flex">
             <div class="icon-menu" id="btnmenu">
                 <span class="fas fa-bars" ></span>
             </div>
             
             <ul class="menu" id="menu">
-                <li class="menu_item"><a href="index.html" class="menu_link">Inicio</a></li>
-                <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
-                <li class="menu_item"><a href="galeria.html" class="menu_link menu_link_select">Galeria</a></li>
-                <li class="menu_item"><a href="contacto.html" class="menu_link">Contacto</a></li>
+                <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link__select">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
             </ul>
   
         </div>
@@ -55,29 +55,29 @@
     </nav>
 
     <section class="banner">
-        <img src="img/banner.jpg" alt="" class="banner_img">
-        <div class="banner_content">Los mejores platos para deleitarte</div>
+        <img src="img/banner.jpg" alt="" class="banner__img">
+        <div class="banner__content">Los mejores platos para deleitarte</div>
     </section>
 
     <main class="main">
         <div class="group gallery">
-            <h2 class="group_title">Nuestra Galeria</h2>
+            <h2 class="group__title">Nuestra Galeria</h2>
             <div class="container container--flex">
                 <div class="column column--50-25">
-                    <img src="img/gallery01.jpg" alt="" class="gallery_img gallery_img_big">
-                    <img src="img/gallery02.jpg" alt="" class="gallery_img gallery_img_small">
+                    <img src="img/gallery01.jpg" alt="" class="gallery__img gallery__img__big">
+                    <img src="img/gallery02.jpg" alt="" class="gallery__img gallery__img__small">
                 </div>
                 <div class="column column--50-25">
-                    <img src="img/gallery03.jpg" alt="" class="gallery_img gallery_img_small">
-                    <img src="img/gallery04.jpg" alt="" class="gallery_img gallery_img_big">
+                    <img src="img/gallery03.jpg" alt="" class="gallery__img gallery__img__small">
+                    <img src="img/gallery04.jpg" alt="" class="gallery__img gallery__img__big">
                 </div>
                 <div class="column column--50-25">
-                    <img src="img/gallery05.jpg" alt="" class="gallery_img gallery_img_big">
-                    <img src="img/gallery06.jpg" alt="" class="gallery_img gallery_img_small">
+                    <img src="img/gallery05.jpg" alt="" class="gallery__img gallery__img__big">
+                    <img src="img/gallery06.jpg" alt="" class="gallery__img gallery__img__small">
                 </div>
                 <div class="column column--50-25">
-                    <img src="img/gallery07.jpg" alt="" class="gallery_img gallery_img_small">
-                    <img src="img/gallery08.jpg" alt="" class="gallery_img gallery_img_big">
+                    <img src="img/gallery07.jpg" alt="" class="gallery__img gallery__img__small">
+                    <img src="img/gallery08.jpg" alt="" class="gallery__img gallery__img__big">
                 </div>
             </div>
 
@@ -88,25 +88,38 @@
 
     </main>
 
-    <footer class="main-footer">
+    <footer class="footer">
         <div class="container container--flex">
             <div class="column column--33">
-                <h2 class="column_title">Direccion</h2>
-                <p class="column_txt">Av Benavides 2392</p>
-                <p class="column_txt">Miraflores Lima-Peru</p>
+                <h2 class="column__title">Encuentranos</h2>
+                <p class="column__txt"><span class="fas fa-map-marker-alt"></span> Av. Benavides 2392-Miraflores</p>
+                <p class="column__txt"><span class="fas fa-clock"></span> Lunes a Domingo de 12 am a 10pm</p>
             </div>
             <div class="column column--33">
-                <h2 class="column_title">Contactanos</h2>
-                <p class="column_txt">WhatsApp: 999 334 455</p>
-                <p class="column_txt">consultas@saborperuano.com</p>
+                <h2 class="column__title">Contactanos</h2>
+                <p class="column__txt"><span class="fab fa-whatsapp"></span> WhatsApp: 999 334 455</p>
+                <p class="column__txt"><span class="fas fa-phone-alt"></span> Telefono: 222-4477</p>
+                <p class="column__txt"><span class="fas fa-envelope"></span> consultas@saborperuano.com</p>
             </div>
             <div class="column column--33">
-                <h2 class="column_title">Siguenos en nuestras redes</h2>
+                <h2 class="column__title">Siguenos en nuestras redes</h2>
                 <div class="social-icon">
-                    <a href="" class="social-icon_link"><i title="facebook" class="fab fa-facebook-square"></i></a>
-                    <a href="" class="social-icon_link"><i title="twitter" class="fab fa-twitter"></i></a>
-                    <a href="" class="social-icon_link"><i title="instagram" class="fab fa-instagram"></i></a>
+                    <a href="" class="social-icon__link"><i title="facebook" class="fab fa-facebook-square"></i></a>
+                    <a href="" class="social-icon__link"><i title="twitter" class="fab fa-twitter"></i></a>
+                    <a href="" class="social-icon__link"><i title="instagram" class="fab fa-instagram"></i></a>
                 </div>
+            </div>
+
+            <div class="container-social">
+
+                <a href="https://api.whatsapp.com/send?phone=51989951844&text=¿Qué servicios ofrecen?" target="_blank">
+                    <img src="icon/icon-whatsapp.png" title="Enviar mensaje de WhatsApp" alt="">
+                </a>
+        
+                <a href="http://m.me/saborperuano" target="_blank">
+                    <img src="icon/icon-messenger.png" alt="" title="Enviar mensaje por Messenger">
+                </a>
+        
             </div>
             <P class="copy">Sabor Peruano | Derechos Reservados</P>
         </div>
